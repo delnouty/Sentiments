@@ -44,9 +44,9 @@ Ensure you have the following installed:
 
 2. **Build and run the Docker containers:**
 
-    \```bash
+    ```bash
     docker-compose up --build
-    \```
+    ```
 
 3. **Access the application:**
 
@@ -80,31 +80,31 @@ To install dependencies for local development, use the following commands:
 
 - **For the Flask application:**
 
-    \```bash
+    ```bash
     pip install -r app/requirements.txt
-    \```
+    ```
 
 - **For the sentiment analysis module:**
 
-    \```bash
+    ```bash
     pip install -r SentimentAnalysis/requirements.txt
-    \```
+    ```
 
 #### Running the Application Locally
 
 1. **Start the sentiment analysis service:**
 
-    \```bash
+    ```bash
     cd SentimentAnalysis
     python sentiment_analysis.py
-    \```
+    ```
 
 2. **Start the Flask application:**
 
-    \```bash
+    ```bash
     cd ../app
     python server.py
-    \```
+    ```
 
 ### Contributing
 
