@@ -1,3 +1,10 @@
+# Project Sentiments
+
+This project provides a web application that performs sentiment analysis on user-provided text. The application is built using Flask and Docker, and utilizes a sentiment analysis module implemented with the `transformers` library.
+
+## Project Structure
+
+\Project Sentiments/ ├── app/ │ ├── templates/ │ │ └── index.html │ ├── static/ │ │ ├── mywebscript.js │ │ └── styles.css │ ├── requirements.txt # Requirements for the application container ├── SentimentAnalysis/ │ ├── Dockerfile # Dockerfile for the sentiment analysis container │ ├── requirements.txt # Requirements for the sentiment analysis container │ ├── sentiment_analysis.py │ ├── __init__.py ├── Dockerfile # Dockerfile for the application container (root) ├── docker-compose.yml # Docker Compose file for managing both containers ├── requirements.txt # Root requirements file (if needed) ├── server.py # Main server script for the Flask application (root) └── README.md \
 
 ## Setup Instructions
 
@@ -90,5 +97,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ### Contact
 
-For any questions or issues, please contact [your-email@example.com].
+For any questions or issues, please contact me.
 
