@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore logs
+*.log
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore the README file
+README.md
+
+# Ignore any .git directory
+.git
+.gitignore
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore application and sentiment analysis builds
+app/__pycache__/
+app/*.pyc
+SentimentAnalysis/__pycache__/
+SentimentAnalysis/*.pyc
+
+# Ignore unnecessary files or directories
+*.swp
+*~

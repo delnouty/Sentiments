@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  application_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: application_container
+    ports:
+      - "5000:5000"
+    depends_on:
+      - sentiment_analysis_service
+
+  sentiment_analysis_service:
+    build:
+      context: ./SentimentAnalysis
+      dockerfile: Dockerfile
+    container_name: sentiment_analysis_container
