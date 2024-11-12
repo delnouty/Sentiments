@@ -5,7 +5,6 @@ This project provides a web application that performs sentiment analysis on user
 ## Project Structure
 
 \```
-
 Project Sentiments/
 ├── app/
 │   ├── templates/
