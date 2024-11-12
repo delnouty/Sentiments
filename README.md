@@ -4,7 +4,7 @@ This project provides a web application that performs sentiment analysis on user
 
 ## Project Structure
 
-\```
+```
 Project Sentiments/
 ├── app/
 │   ├── templates/
@@ -23,7 +23,7 @@ Project Sentiments/
 ├── requirements.txt        # Root requirements file (if needed)
 ├── server.py               # Main server script for the Flask application (root)
 └── README.md
-\```
+```
 
 ## Setup Instructions
 
