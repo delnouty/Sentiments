@@ -37,10 +37,10 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
 
-    \```bash
+    ```bash
     git clone https://github.com/your-username/project-sentiments.git
     cd project-sentiments
-    \```
+    ```
 
 2. **Build and run the Docker containers:**
 
